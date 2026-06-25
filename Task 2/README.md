@@ -30,8 +30,8 @@ Target Variable ($y$): Next_Close (Tomorrow's Closing Price, engineered via a te
 
 Clone this project directory:
 
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/numanabubakar/AI-ML-Internship-Task.git
+cd AI-ML-Internship-Task/Task 2
 
 
 Install dependencies:
@@ -86,6 +86,7 @@ $$\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
 
 ##### R-squared ($R^2$) Score: Displays the proportion of variance in tomorrow's close price that is predictable from our feature set.
 
+```text
 [Linear Regression Metrics]
   Mean Absolute Error (MAE):     $3.1620
   Root Mean Squared Error (RMSE): $4.5313
@@ -95,6 +96,7 @@ $$\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
   Mean Absolute Error (MAE):     $6.8266
   Root Mean Squared Error (RMSE): $9.7414
   R-squared (R2) Score:          0.8648
+```
 
 #### Visualization Output
 
